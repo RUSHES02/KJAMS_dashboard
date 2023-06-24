@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import GridSystem from './Components/GridSystem'
 import Buttons from './Components/Buttons'
+import { Button } from 'reactstrap'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <Button color="default">Default</Button>
         <Buttons />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
