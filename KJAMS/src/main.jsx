@@ -9,7 +9,5 @@ import "./assets/demo/demo.css";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />
 )
