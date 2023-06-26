@@ -1,7 +1,8 @@
-#root {
+/* #root {
   max-width: 1280px;
+  width: 100vh;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
 }
 
@@ -39,4 +40,14 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.primaryColor{
+  color : rgb(22,60, 90)
+} */
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
